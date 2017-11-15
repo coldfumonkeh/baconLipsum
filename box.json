@@ -1,0 +1,69 @@
+{
+    "name":"Bacon Lipsum",
+    "slug":"baconLipsum",
+    "version":"1.0.2",
+    "author":"Matt Gifford (https://www.monkehworks.com)",
+    "location":"coldfumonkeh/baconLipsum#v1.0.2",
+    "directory":"",
+    "createPackageDirectory":"true",
+    "homepage":"https://github.com/coldfumonkeh/baconLipsum",
+    "documentation":"https://github.com/coldfumonkeh/baconLipsum",
+    "type":"projects",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/coldfumonkeh/baconLipsum.git"
+    },
+    "bugs":"https://github.com/coldfumonkeh/baconLipsum/issues",
+    "shortDescription":"A ColdFusion component to interact with the Bacon Ipsum API.",
+    "keywords":[
+        "api",
+        "lorem ipsum",
+        "lipsum"
+    ],
+    "scripts":{
+        "postVersion":"package set location='coldfumonkeh/baconLipsum#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "private":"false",
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "URL":""
+        }
+    },
+    "dependencies":{
+        "testbox":"^2.5.0+107"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    }
+}
