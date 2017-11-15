@@ -17,7 +17,7 @@ component accessors="true" {
 	* @type Options are 'all-meat' for meat only or 'meat-and-filler' for meat mixed with miscellaneous ‘lorem ipsum’ filler.
 	* @paras optional number of paragraphs, defaults to 5
 	* @sentences number of sentences (this overrides paragraphs)
-	* @startWithLorem optional. Pass 1 to start the first paragraph with 'Bacon ipsum dolor'
+	* @startWithLorem Default is 'false'. Pass 'true' to start the first paragraph with 'Bacon ipsum dolor'
 	* @format Default is 'json'. Options are 'json', 'text' or 'html'
 	*/
 	public function getPiggyWithIt(
