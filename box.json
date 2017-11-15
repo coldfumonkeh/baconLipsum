@@ -1,9 +1,9 @@
 {
     "name":"Bacon Lipsum",
     "slug":"baconLipsum",
-    "version":"1.0.2",
+    "version":"1.0.0",
     "author":"Matt Gifford (https://www.monkehworks.com)",
-    "location":"coldfumonkeh/baconLipsum#v1.0.2",
+    "location":"coldfumonkeh/baconLipsum#v1.0.0",
     "directory":"",
     "createPackageDirectory":"true",
     "homepage":"https://github.com/coldfumonkeh/baconLipsum",
